@@ -1,0 +1,20 @@
+# Virtual environment folders
+Scripts/
+Include/
+Lib/
+pyvenv.cfg
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data output
+data/
+
+# IDE
+.vscode/
+.idea/
