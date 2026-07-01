@@ -1,7 +1,7 @@
 from helpers.Logger import logger
-from uploader.openai_store import OpenAIVectorStore
+from uploader.base import AIKnowledgeBase
 
-def estimated_chunk_count(openai_instance: OpenAIVectorStore, content: str) -> int:
+def estimated_chunk_count(openai_instance: AIKnowledgeBase, content: str) -> int:
     chunk_size = openai_instance.chunk_size
     overlap = openai_instance.overlap
 
@@ -13,16 +13,12 @@ def estimated_chunk_count(openai_instance: OpenAIVectorStore, content: str) -> i
     chunks = 1 + (estimated_tokens - chunk_size) / (chunk_size - overlap)
     return int(chunks)
 
-def upload_articles(openai_instance: OpenAIVectorStore, articles: list):
+def upload_articles(openai_instance: AIKnowledgeBase, articles: list):
     count = 0
     failed = 0
     total_chunks = 0
 
     added, updated, skipped = openai_instance.detect_delta(articles)
-
-    if not added and not updated:
-        logger.info("[Upload] No new or updated articles to upload.")
-        return
     
     if len(added) > 0:
         logger.info(f"[Upload] {len(added)} new articles to upload.")
@@ -55,6 +51,8 @@ def upload_articles(openai_instance: OpenAIVectorStore, articles: list):
                 logger.error(f"[Upload] Failed '{article['slug']}': {e}")
                 continue
 
+    logger.info("===============================================================")
+    openai_instance.log_summary(added, updated, skipped)
     logger.info(f"[Upload] Total articles uploaded: {count} | Failed: {failed}")
     logger.info(f"[Upload] Total chunks processed (estimated): {total_chunks}")
 

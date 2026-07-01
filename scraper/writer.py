@@ -3,7 +3,6 @@ import hashlib
 import slugify
 import markdownify as md
 from helpers.Logger import logger
-from helpers.LoggingFormat import info_logging
 from pathlib import Path
 
 from scraper.cleaner import clean_content
@@ -46,7 +45,7 @@ def generate_data(articles: list) -> list:
 
         header = (
             f"---\n"
-            f"Article Url: {article_data['url']}\n"
+            f"Article URL: {article_data['url']}\n"
             f"ID: {article_data['id']}\n"
             f"title: \"{article_data['title']}\"\n"
             f"Updated Date: {article_data['updated_at']}\n"
@@ -64,5 +63,5 @@ def generate_data(articles: list) -> list:
     with open(json_file_path, "w", encoding="utf-8") as json_file:
         json.dump(data, json_file, indent=4, ensure_ascii=False)
 
-    logger.info(info_logging("Scraper", f"{len(data)} articles saved -> {md_folder_path}/"))
+    logger.info(f"[Scraper] {len(data)} articles saved -> {md_folder_path}/")
     return data

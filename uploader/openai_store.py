@@ -70,6 +70,6 @@ class OpenAIVectorStore(AIKnowledgeBase):
             else:
                 skipped.append(article)
 
-        logger.info(f"[Upload] Detected {len(added)} new, {len(updated)} updated, and {len(skipped)} skipped articles.")
+        # logger.info(f"[Upload] Detected {len(added)} new, {len(updated)} updated, and {len(skipped)} skipped articles.")
 
         return added, updated, skipped

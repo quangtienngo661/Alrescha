@@ -24,5 +24,5 @@ if __name__ == "__main__":
         formated_articles = generate_data(articles)
         upload_articles(openai_instance, formated_articles)
     else:
-        logger.error("No valid vector store available. Aborting.")
+        # logger.error("No valid vector store available. Aborting.")
         exit(1)

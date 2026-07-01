@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from helpers.Logger import logger
 
 
 class AIKnowledgeBase(ABC):
@@ -69,4 +70,4 @@ class AIKnowledgeBase(ABC):
 
     def log_summary(self, added: list, updated: list, skipped: list) -> None:
         """Print a standardised run summary to stdout."""
-        print(f"[Upload] added={len(added)} updated={len(updated)} skipped={len(skipped)}")
+        logger.info(f"[Upload] added={len(added)} updated={len(updated)} skipped={len(skipped)}")
