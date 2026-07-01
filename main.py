@@ -16,7 +16,7 @@ if __name__ == "__main__":
     if vector_store:
         openai_instance = OpenAIVectorStore(
             api_key=api_key,
-            vector_store_id=vector_store.id,  # ← dùng ID thật, không phải biến env cũ
+            vector_store_id=vector_store.id,
             chunk_size=800,
             overlap=400
         )
@@ -24,5 +24,4 @@ if __name__ == "__main__":
         formated_articles = generate_data(articles)
         upload_articles(openai_instance, formated_articles)
     else:
-        # logger.error("No valid vector store available. Aborting.")
         exit(1)

@@ -7,7 +7,7 @@ An automated pipeline that scrapes the OptiSigns Help Center, converts articles 
 ## How It Works
 
 ```
-Zendesk Help Center API
+OptiSigns Help Center API
         │
         ▼
   scraper/fetcher.py      → Pulls latest articles via REST API
@@ -50,7 +50,7 @@ On every run, the pipeline compares a **SHA-256 hash** of each article's cleaned
 
 ---
 
-## Setup
+## Setup (Local)
 
 ```bash
 # 1. Clone & install dependencies
@@ -66,13 +66,39 @@ python main.py
 
 ---
 
+## Docker
+
+```bash
+# 1. Build image
+docker build -t alrescha-app .
+
+# 2. Run container (pass environment variables from .env file)
+docker run --env-file .env alrescha-app
+```
+
+> **Note:** Never hardcode API keys into the `Dockerfile`. Always use `--env-file .env` at runtime to keep secrets secure.
+
+Run in the background (detached mode):
+
+```bash
+docker run -d --env-file .env --name alrescha-run alrescha-app
+
+# View logs
+docker logs -f alrescha-run
+
+# Stop the container
+docker stop alrescha-run
+```
+
+---
+
 ## Environment Variables
 
 | Variable | Description |
 |---|---|
 | `OPENAI_API_KEY` | OpenAI API key |
 | `OPENAI_VECTOR_STORE_ID` | Target Vector Store ID (created on first run) |
-| `BASE_URL` | Zendesk Help Center articles endpoint |
+| `BASE_URL` | OptiSigns Help Center articles endpoint |
 
 ---
 
