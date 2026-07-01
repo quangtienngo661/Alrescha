@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 # 2. Configure environment
 cp .env.sample .env
-# Fill in OPENAI_API_KEY, OPENAI_VECTOR_STORE_ID, BASE_URL
+# Fill in API_KEY, OPENAI_VECTOR_STORE_ID, BASE_URL
 
 # 3. Run
 python main.py
@@ -127,7 +127,9 @@ docker stop alrescha-run
 
 The scraper runs daily as a Cloud Run Job on Google Cloud Platform (europe-west1).
 
-📋 **[View job executions & logs](https://console.cloud.google.com/run/jobs/details/europe-west1/alrescha/executions?project=alrescha)**
+You can inspect the execution logs directly in this repository:
+- 📋 **[Initial Run Log (50 Uploads)](docs/logs/initial-log.json)**
+- 📋 **[Second Run Log (Delta Sync / 50 Skipped)](docs/logs/final-log.json)**
 
 Each run logs:
 ```

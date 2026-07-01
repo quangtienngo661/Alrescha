@@ -1,0 +1,151 @@
+[
+  {
+    "textPayload": "2026-07-01 04:06:59 - INFO - [VectorStore] Reusing existing store: vs_6a4469b84d288191b4e8e7b362cbbd06",
+    "insertId": "6a44926300081db02a909782",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "location": "europe-west1",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T04:06:59.531888Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-t59b4",
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473cdacb11e51241d7a87b2cbcd4dba089916a784869f6e0e02048ef4b687868d2ca5d582dcc9d8d8f79ce72240d49d01c9ffaa9f81357639a6e8683c4cd73e723a80183a9d3b46161a4c18d001c3816b083061c483194",
+      "run.googleapis.com/task_attempt": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T04:06:59.536628844Z"
+  },
+  {
+    "textPayload": "2026-07-01 04:07:02 - INFO - [Scraper] 50 articles saved -> data/markdown_files/",
+    "insertId": "6a449266000003a397b4de6d",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "location": "europe-west1",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T04:07:02.000931Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-t59b4",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473cdacb11e51241d7a87b2cbcd4dba089916a784869f6e0e02048ef4b687868d2ca5d582dcc9d8d8f79ce72240d49d01c9ffaa9f81357639a6e8683c4cd73e723a80183a9d3b46161a4c18d001c3816b083061c483194"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T04:07:02.198792763Z"
+  },
+  {
+    "textPayload": "2026-07-01 04:07:05 - INFO - ===============================================================",
+    "insertId": "6a4492690005080230cfccd7",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T04:07:05.329730Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473cdacb11e51241d7a87b2cbcd4dba089916a784869f6e0e02048ef4b687868d2ca5d582dcc9d8d8f79ce72240d49d01c9ffaa9f81357639a6e8683c4cd73e723a80183a9d3b46161a4c18d001c3816b083061c483194",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-t59b4"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T04:07:05.531496217Z"
+  },
+  {
+    "textPayload": "2026-07-01 04:07:05 - INFO - [Upload] added=0 updated=0 skipped=50",
+    "insertId": "6a4492690005081567bbc43c",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "location": "europe-west1",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T04:07:05.329749Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-t59b4",
+      "instanceId": "002f8ffd473cdacb11e51241d7a87b2cbcd4dba089916a784869f6e0e02048ef4b687868d2ca5d582dcc9d8d8f79ce72240d49d01c9ffaa9f81357639a6e8683c4cd73e723a80183a9d3b46161a4c18d001c3816b083061c483194",
+      "run.googleapis.com/task_attempt": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T04:07:05.531496217Z"
+  },
+  {
+    "textPayload": "2026-07-01 04:07:05 - INFO - [Upload] Total articles uploaded: 0 | Failed: 0",
+    "insertId": "6a4492690005081a3c7ca620",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "location": "europe-west1",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T04:07:05.329754Z",
+    "labels": {
+      "instanceId": "002f8ffd473cdacb11e51241d7a87b2cbcd4dba089916a784869f6e0e02048ef4b687868d2ca5d582dcc9d8d8f79ce72240d49d01c9ffaa9f81357639a6e8683c4cd73e723a80183a9d3b46161a4c18d001c3816b083061c483194",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/execution_name": "alrescha-t59b4",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T04:07:05.531496217Z"
+  },
+  {
+    "textPayload": "2026-07-01 04:07:05 - INFO - [Upload] Total chunks processed (estimated): 0",
+    "insertId": "6a4492690005082038a671a5",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "location": "europe-west1",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T04:07:05.329760Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473cdacb11e51241d7a87b2cbcd4dba089916a784869f6e0e02048ef4b687868d2ca5d582dcc9d8d8f79ce72240d49d01c9ffaa9f81357639a6e8683c4cd73e723a80183a9d3b46161a4c18d001c3816b083061c483194",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-t59b4"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T04:07:05.531496217Z"
+  },
+  {
+    "textPayload": "Container called exit(0).",
+    "insertId": "6a449269000a4b314354377d",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "location": "europe-west1",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T04:07:05.674559Z",
+    "severity": "INFO",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-t59b4",
+      "run.googleapis.com/task_attempt": "0",
+      "container_name": "alrescha-1",
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473cdacb11e51241d7a87b2cbcd4dba089916a784869f6e0e02048ef4b687868d2ca5d582dcc9d8d8f79ce72240d49d01c9ffaa9f81357639a6e8683c4cd73e723a80183a9d3b46161a4c18d001c3816b083061c483194"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2026-07-01T04:07:05.683024312Z"
+  }
+]

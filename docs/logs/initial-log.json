@@ -1,0 +1,1222 @@
+[
+  {
+    "textPayload": "2026-07-01 01:44:40 - INFO - [VectorStore] Reusing existing store: vs_6a4469b84d288191b4e8e7b362cbbd06",
+    "insertId": "6a447108000c04031b2d07f0",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:40.787459Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:40.792400373Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:44 - INFO - [Scraper] 50 articles saved -> data/markdown_files/",
+    "insertId": "6a44710c0001f6c35bee14f7",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:44.128707Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:44.455829722Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:44 - INFO - [Upload] 50 new articles to upload.",
+    "insertId": "6a44710c00060528ddf14183",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:44.394536Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:44.455829722Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:45 - INFO - [Upload] optisigns-digital-signage-app-for-zoom-adding-using-and-removing-the-app (~4 chunks) ✓",
+    "insertId": "6a44710d000b767cbad762f7",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:45.751228Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:45.786896794Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:47 - INFO - [Upload] connect-google-meet-hardware-to-optisigns-digital-signage (~5 chunks) ✓",
+    "insertId": "6a44710f0003f2b894e1c810",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:47.258744Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:47.453379689Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:49 - INFO - [Upload] connect-microsoft-teams-rooms-to-optisigns-digital-signage (~5 chunks) ✓",
+    "insertId": "6a44711100044fa3cc081a8c",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:49.282531Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:49.452879282Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:50 - INFO - [Upload] room-integrations-turn-your-meeting-rooms-into-digital-signage (~3 chunks) ✓",
+    "insertId": "6a44711200089d4efc6f6ef2",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:50.564558Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:50.785441973Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:51 - INFO - [Upload] connect-zoom-rooms-to-optisigns-digital-signage (~5 chunks) ✓",
+    "insertId": "6a44711300099d495cc2c4dd",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:51.630089Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:51.781600441Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:52 - INFO - [Upload] connect-cisco-webex-rooms-to-optisigns-digital-signage (~4 chunks) ✓",
+    "insertId": "6a447114000d096fbdca0308",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:52.854383Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:53.113197794Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:53 - INFO - [Upload] chromeos-pwa-instructions (~4 chunks) ✓",
+    "insertId": "6a447115000e6df231f86ece",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:53.945650Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:54.116222696Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:55 - INFO - [Upload] how-to-use-the-google-ads-dashboard-app (~3 chunks) ✓",
+    "insertId": "6a447117000248d0561cd065",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:55.149712Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:55.444243936Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:56 - INFO - [Upload] how-to-use-the-google-search-console-app (~3 chunks) ✓",
+    "insertId": "6a4471180004d6bdd2f883a7",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:56.317117Z",
+    "labels": {
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:56.444054235Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:57 - INFO - [Upload] how-to-use-the-youtube-dashboard-app (~3 chunks) ✓",
+    "insertId": "6a447119000b9805f69a7a1e",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:57.759813Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:57.775193213Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:44:58 - INFO - [Upload] operational-schedule-troubleshooting (~5 chunks) ✓",
+    "insertId": "6a44711a000e5faaa29fd7b6",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:44:58.941994Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:44:59.106729408Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:00 - INFO - [Upload] how-to-use-the-optidev-app (~2 chunks) ✓",
+    "insertId": "6a44711c0005579f6e584362",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:00.350111Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:00.440873698Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:01 - INFO - [Upload] how-to-set-up-an-outlook-calendar-app-with-shared-permissions (~2 chunks) ✓",
+    "insertId": "6a44711d000a16391c8589fc",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:01.661049Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:01.769875348Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:03 - INFO - [Upload] using-an-enterprise-network-802-1x-with-optisigns (~2 chunks) ✓",
+    "insertId": "6a44711f00008c900cba0095",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:03.035984Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:03.104100414Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:04 - INFO - [Upload] user-management-example-chain-restaurant-or-retail-store-with-multiple-locations (~8 chunks) ✓",
+    "insertId": "6a44712000062ecf98d58b26",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:04.405199Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:04.433756342Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:05 - INFO - [Upload] getting-started-with-designer (~11 chunks) ✓",
+    "insertId": "6a447121000a67149ecccedf",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:05.681748Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:05.766356740Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:07 - INFO - [Upload] designer-2-0-new-features (~7 chunks) ✓",
+    "insertId": "6a447123000195eaff987d50",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:07.103914Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:07.432272339Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:08 - INFO - [Upload] optisigns-pro-promax-player-troubleshooting-guide (~6 chunks) ✓",
+    "insertId": "6a44712400025f75df6f4042",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:08.155509Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:08.430290449Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:09 - INFO - [Upload] how-to-play-licensed-background-music-on-digital-signs-with-optisound (~2 chunks) ✓",
+    "insertId": "6a44712500064cede736a705",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:09.412909Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:09.427270658Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:10 - INFO - [Upload] disk-encryption (~1 chunks) ✓",
+    "insertId": "6a44712600082e906f882c7d",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:10.536208Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:10.759185695Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:11 - INFO - [Upload] optistick-troubleshooting-guide (~8 chunks) ✓",
+    "insertId": "6a447127000d253eab2eeac9",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:11.861502Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:12.093691484Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:13 - INFO - [Upload] fixing-unexpected-screen-rotation-incorrect-orientation-with-optisigns-android-stick (~1 chunks) ✓",
+    "insertId": "6a4471290003d906c1cd54de",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:13.252166Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:13.426648474Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:14 - INFO - [Upload] how-to-use-the-tableau-app (~5 chunks) ✓",
+    "insertId": "6a44712a000631ad9491f7c0",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:14.405933Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:14.426175906Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:15 - INFO - [Upload] handle-oauth-authentication-using-api-gateway-pre-request-configuration (~1 chunks) ✓",
+    "insertId": "6a44712b000b26664c3a5ff5",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:15.730726Z",
+    "labels": {
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:15.758447231Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:17 - INFO - [Upload] tagging-in-optisigns (~5 chunks) ✓",
+    "insertId": "6a44712d0002c4a3fe5fcf09",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:17.181411Z",
+    "labels": {
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:17.423326415Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:18 - INFO - [Upload] getting-started-with-an-optisigns-free-trial (~1 chunks) ✓",
+    "insertId": "6a44712e0006d1daa4c6457d",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:18.446938Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:18.754410267Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:20 - INFO - [Upload] how-to-use-optisigns-with-microsoft-teams-rooms (~3 chunks) ✓",
+    "insertId": "6a44713000003bafc1b1353d",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:20.015279Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:20.088988571Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:21 - INFO - [Upload] how-to-access-the-troubleshooting-page-of-the-optisigns-player (~2 chunks) ✓",
+    "insertId": "6a4471310000eee0a91d8093",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:21.061152Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:21.088441414Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:22 - INFO - [Upload] how-to-using-sepa-and-ideal-for-eur-currency-subscription-payments (~1 chunks) ✓",
+    "insertId": "6a4471320006e1ee22347de3",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:22.451054Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:22.753149210Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:23 - INFO - [Upload] how-to-install-a-root-certificate-and-display-an-internal-website-on-screens (~7 chunks) ✓",
+    "insertId": "6a4471330008f62e133de4a4",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:23.587310Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:23.750231042Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:25 - INFO - [Upload] accepted-payment-methods (~1 chunks) ✓",
+    "insertId": "6a447135000074acb89c3858",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:25.029868Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:25.086460180Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:26 - INFO - [Upload] what-do-i-get-with-an-optisigns-free-plan (~2 chunks) ✓",
+    "insertId": "6a44713600020897aa4b85ad",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:26.133271Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:26.415611258Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:27 - INFO - [Upload] making-a-video-wall-with-optisigns-video-wall-app (~9 chunks) ✓",
+    "insertId": "6a4471370005a398032982df",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:27.369560Z",
+    "labels": {
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:27.412149183Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:28 - INFO - [Upload] how-to-set-up-a-power-bi-service-principal-for-use-in-optisigns (~3 chunks) ✓",
+    "insertId": "6a447138000a036cc63c7ed0",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:28.656236Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:28.742634312Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:29 - INFO - [Upload] display-salesforce-dashboards-with-mfa-using-web-scripting (~1 chunks) ✓",
+    "insertId": "6a447139000bca0a50631bfd",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:29.772618Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:30.078624183Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:30 - INFO - [Upload] how-to-order-a-preconfigured-optisigns-android-player-device (~1 chunks) ✓",
+    "insertId": "6a44713a000cdf97333d34c5",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:30.843671Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:31.076339589Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:32 - INFO - [Upload] integrating-point-of-sale-pos-systems-to-build-digital-menu-boards-with-optisync (~9 chunks) ✓",
+    "insertId": "6a44713c0001c2de6c8055fb",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:32.115422Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:32.408302479Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:33 - INFO - [Upload] configuring-mass-deployment-with-jamf-pro-mdm-on-apple-devices (~1 chunks) ✓",
+    "insertId": "6a44713d000c6b2751e4be05",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:33.813863Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:34.073480085Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:34 - INFO - [Upload] getting-started-with-touch-screen-kiosks (~6 chunks) ✓",
+    "insertId": "6a44713e000ec51a33eabb35",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:34.967962Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:35.073279051Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:36 - INFO - [Upload] how-to-use-toast-api-data-with-optisigns (~2 chunks) ✓",
+    "insertId": "6a44714000063d372c62fe6f",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:36.408887Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:36.741269581Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:37 - INFO - [Upload] enabling-lock-down-mode-on-touch-screen-devices (~3 chunks) ✓",
+    "insertId": "6a447141000c7b65036f0653",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:37.818021Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:38.069568546Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:39 - INFO - [Upload] how-to-use-the-mobile-app-for-remote-control (~1 chunks) ✓",
+    "insertId": "6a4471430001b9fe10f1859a",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:39.113150Z",
+    "labels": {
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:39.401597295Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:40 - INFO - [Upload] guide-for-creating-content-with-optisigns (~4 chunks) ✓",
+    "insertId": "6a4471440007ad2bb89dc69f",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:40.503083Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:40.739548362Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:41 - INFO - [Upload] list-of-supported-cities-for-weather-wall-city-themes (~1 chunks) ✓",
+    "insertId": "6a447145000e684aff1bd890",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:41.944202Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:42.067334373Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:43 - INFO - [Upload] how-to-clear-cache-on-a-brightsign-player (~1 chunks) ✓",
+    "insertId": "6a44714700051114e01e852e",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:43.332052Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:43.397800951Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:44 - INFO - [Upload] how-to-create-an-attract-screen-for-your-kiosk (~1 chunks) ✓",
+    "insertId": "6a4471480007a98db49c8373",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:44.502157Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:44.730907470Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:46 - INFO - [Upload] how-to-set-up-dynamic-data-mapping-with-optisync (~8 chunks) ✓",
+    "insertId": "6a44714a00028ecdd1e4e3f6",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:46.167629Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:46.394821023Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:47 - INFO - [Upload] how-to-create-and-use-operational-schedules-hdmi-cec-rs-232 (~3 chunks) ✓",
+    "insertId": "6a44714b0006bb61ed17548d",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:47.441185Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:47.726155487Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:48 - INFO - [Upload] performance-stability-issues-on-android-devices-and-best-practices (~1 chunks) ✓",
+    "insertId": "6a44714c000b92dbf5b45ff3",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:48.758491Z",
+    "labels": {
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:49.060266824Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:49 - INFO - [Upload] samsung-tizen-tvs-troubleshooting-guide (~1 chunks) ✓",
+    "insertId": "6a44714d000cb7328d89b1e1",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "job_name": "alrescha",
+        "project_id": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:49.833330Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:50.055174785Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:49 - INFO - ===============================================================",
+    "insertId": "6a44714d000cb79e90fcd62e",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "project_id": "alrescha",
+        "job_name": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:49.833438Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:50.055174785Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:49 - INFO - [Upload] added=50 updated=0 skipped=0",
+    "insertId": "6a44714d000cb7a62b5c653e",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "location": "europe-west1",
+        "project_id": "alrescha",
+        "job_name": "alrescha"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:49.833446Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "run.googleapis.com/task_index": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:50.055174785Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:49 - INFO - [Upload] Total articles uploaded: 50 | Failed: 0",
+    "insertId": "6a44714d000cb7df238e1a77",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:49.833503Z",
+    "labels": {
+      "run.googleapis.com/task_index": "0",
+      "run.googleapis.com/task_attempt": "0",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/execution_name": "alrescha-xmj5v"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:50.055174785Z"
+  },
+  {
+    "textPayload": "2026-07-01 01:45:49 - INFO - [Upload] Total chunks processed (estimated): 178",
+    "insertId": "6a44714d000cb7e5292899ef",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:49.833509Z",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2026-07-01T01:45:50.055174785Z"
+  },
+  {
+    "textPayload": "Container called exit(0).",
+    "insertId": "6a44714e0002f12db0f07f9f",
+    "resource": {
+      "type": "cloud_run_job",
+      "labels": {
+        "job_name": "alrescha",
+        "project_id": "alrescha",
+        "location": "europe-west1"
+      }
+    },
+    "timestamp": "2026-07-01T01:45:50.192743Z",
+    "severity": "INFO",
+    "labels": {
+      "run.googleapis.com/execution_name": "alrescha-xmj5v",
+      "container_name": "alrescha-1",
+      "instanceId": "002f8ffd473b22426f3f8ee146b9edb7bc939dea1edfd0db72b6f2f5daa15354f0332fb655ca9b110bd3674c63174ce195403c3c24848f1363d45a9237246adcf1549b0c898bdbfa1434ba46515a1277415ad706a420aeb2c37e",
+      "run.googleapis.com/task_attempt": "0",
+      "run.googleapis.com/task_index": "0"
+    },
+    "logName": "projects/alrescha/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2026-07-01T01:45:50.197032341Z"
+  }
+]
