@@ -4,7 +4,7 @@ from openai import OpenAI, NotFoundError
 from helpers.Logger import logger
 
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.getenv("API_KEY"))
 vector_store_id = os.getenv("OPENAI_VECTOR_STORE_ID")
 
 def init_vector_store(name: str = "Alrescha"):

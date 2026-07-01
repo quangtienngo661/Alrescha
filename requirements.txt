@@ -1,5 +1,5 @@
-openai
-requests
-markdownify
-python-slugify
-python-dotenv
+openai==2.44.0
+requests==2.34.2
+python-dotenv==1.2.2
+python-slugify==8.0.4
+markdownify==1.2.2

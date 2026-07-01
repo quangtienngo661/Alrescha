@@ -1,17 +1,17 @@
 from helpers.Logger import logger
 from uploader.base import AIKnowledgeBase
+import tiktoken
+
+_encoder = tiktoken.get_encoding("cl100k_base")
 
 def estimated_chunk_count(openai_instance: AIKnowledgeBase, content: str) -> int:
     chunk_size = openai_instance.chunk_size
     overlap = openai_instance.overlap
+    token_count = len(_encoder.encode(content)) 
 
-    estimated_tokens = len(content) / 4
-
-    if estimated_tokens <= chunk_size:
+    if token_count <= chunk_size:
         return 1
-
-    chunks = 1 + (estimated_tokens - chunk_size) / (chunk_size - overlap)
-    return int(chunks)
+    return int(1 + (token_count - chunk_size) / (chunk_size - overlap))
 
 def upload_articles(openai_instance: AIKnowledgeBase, articles: list):
     count = 0
