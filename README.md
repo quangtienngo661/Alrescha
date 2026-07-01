@@ -19,7 +19,7 @@ OptiSigns Help Center API
   scraper/writer.py       → Converts HTML → Markdown, adds YAML metadata header, saves as <slug>.md
         │
         ▼
-  uploader/openai_store.py → Delta detection (hash compare) → upload only new/updated files
+  uploader/bulk_upload.py  → Calls detect_delta() → upload only new/updated files
         │
         ▼
   OpenAI Vector Store     → Chunked (max 800 tokens, overlap 400) & embedded automatically
@@ -45,7 +45,8 @@ This preserves semantic context per article (step-by-step guides stay intact) an
 On every run, the pipeline compares a **SHA-256 hash** of each article's cleaned content against the hash stored as file metadata in the Vector Store. Only files that are **new** or **changed** are uploaded; unchanged articles are skipped.
 
 ```
-[Upload] Detected 2 new, 1 updated, and 32 skipped articles.
+[Upload] added=50 updated=0 skipped=0
+[Upload] Total articles uploaded: 50 | Failed: 0
 ```
 
 ---
