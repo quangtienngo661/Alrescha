@@ -9,22 +9,16 @@ An automated pipeline that scrapes the OptiSigns Help Center, converts articles 
 ```
 OptiSigns Help Center API
         │
-        ▼
   scraper/fetcher.py      → Pulls latest articles via REST API
         │
-        ▼
   scraper/cleaner.py      → Strips nav, ads, pricing sections, TOC links
         │
-        ▼
   scraper/writer.py       → Converts HTML → Markdown, adds YAML metadata header, saves as <slug>.md
         │
-        ▼
   uploader/bulk_upload.py  → Calls detect_delta() → upload only new/updated files
         │
-        ▼
   OpenAI Vector Store     → Chunked (max 800 tokens, overlap 400) & embedded automatically
         │
-        ▼
   OpenAI Assistant (OptiBot) → Answers questions using File Search tool
 ```
 
@@ -78,28 +72,6 @@ docker run --env-file .env alrescha-app
 ```
 
 > **Note:** Never hardcode API keys into the `Dockerfile`. Always use `--env-file .env` at runtime to keep secrets secure.
-
-Run in the background (detached mode):
-
-```bash
-docker run -d --env-file .env --name alrescha-run alrescha-app
-
-# View logs
-docker logs -f alrescha-run
-
-# Stop the container
-docker stop alrescha-run
-```
-
----
-
-## Environment Variables
-
-| Variable | Description |
-|---|---|
-| `API_KEY` | OpenAI API key |
-| `OPENAI_VECTOR_STORE_ID` | Target Vector Store ID (created on first run) |
-| `BASE_URL` | OptiSigns Help Center articles endpoint |
 
 ---
 
