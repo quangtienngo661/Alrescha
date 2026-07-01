@@ -57,8 +57,8 @@ On every run, the pipeline compares a **SHA-256 hash** of each article's cleaned
 pip install -r requirements.txt
 
 # 2. Configure environment
-cp .env.example .env
-# Fill in API_KEY, OPENAI_VECTOR_STORE_ID, BASE_URL
+cp .env.sample .env
+# Fill in OPENAI_API_KEY, OPENAI_VECTOR_STORE_ID, BASE_URL
 
 # 3. Run
 python main.py
@@ -118,5 +118,28 @@ docker stop alrescha-run
 │   └── setup_vector_store.py # One-time Vector Store initialization
 ├── helpers/
 │   └── Logger.py            # Centralized logging configuration
-└── .env.example             # Environment variable template
+└── .env.sample              # Environment variable template
 ```
+
+---
+
+## Daily Job Logs
+
+The scraper runs daily as a Cloud Run Job on Google Cloud Platform (europe-west1).
+
+📋 **[View job executions & logs](https://console.cloud.google.com/run/jobs/details/europe-west1/alrescha/executions?project=alrescha)**
+
+Each run logs:
+```
+[Upload] added=X updated=Y skipped=Z
+[Upload] Total articles uploaded: X | Failed: 0
+[Upload] Total chunks processed (estimated): Y
+```
+
+---
+
+## Assistant Demo
+
+> **Q: How do I add a YouTube video?**
+
+![OptiBot answering sample question with cited URLs](docs/screenshots/sample-question.png)
