@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 # 2. Configure environment
 cp .env.example .env
-# Fill in OPENAI_API_KEY, OPENAI_VECTOR_STORE_ID, BASE_URL
+# Fill in API_KEY, OPENAI_VECTOR_STORE_ID, BASE_URL
 
 # 3. Run
 python main.py
@@ -96,7 +96,7 @@ docker stop alrescha-run
 
 | Variable | Description |
 |---|---|
-| `OPENAI_API_KEY` | OpenAI API key |
+| `API_KEY` | OpenAI API key |
 | `OPENAI_VECTOR_STORE_ID` | Target Vector Store ID (created on first run) |
 | `BASE_URL` | OptiSigns Help Center articles endpoint |
 
@@ -117,7 +117,6 @@ docker stop alrescha-run
 ├── init/
 │   └── setup_vector_store.py # One-time Vector Store initialization
 ├── helpers/
-│   ├── Logger.py            # Centralized logging configuration
-│   └── LoggingFormat.py     # Log message formatter
+│   └── Logger.py            # Centralized logging configuration
 └── .env.example             # Environment variable template
 ```

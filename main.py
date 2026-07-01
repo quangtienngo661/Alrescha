@@ -9,7 +9,7 @@ from helpers.Logger import logger
 
 load_dotenv()
 
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = os.getenv("API_KEY")
 
 if __name__ == "__main__":
     vector_store = init_vector_store()
