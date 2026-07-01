@@ -3,3 +3,4 @@ requests==2.34.2
 python-dotenv==1.2.2
 python-slugify==8.0.4
 markdownify==1.2.2
+tiktoken==0.7.0
